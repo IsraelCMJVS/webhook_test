@@ -8,15 +8,15 @@ Author : Israel Cortes Mayorga <br />
 #
  # AUTOMATED SCRIPT TO UPDATE WEBHOOKS AT GITLAB PROJECTS (OPTIONAL MODULES TO LIST & ADD NEW HOOKS)
  This script works with a vars file named "vars.json" to get neccessary info and send the API requests, 
- please modify these vars with yours as the structure below:<br />
- ##Vars glosary:
-       -listhook_api: Endpoint used to list the hooks in an specific project.<br />
-                     "https://gitms.bcpl.mx/api/v4/projects/$PROJECTID/hooks"       <br />
-       -edithook_api: Endpoint used to update or add hooks in an specific project.<br />
-                     "https://gitms.bcpl.mx/api/v4/projects/$PROJECTID/hooks/$HOOKID"<br />
-                        $PROJECTID = ID of the project to modify (int)<br />
-                        $HOOKID = ID of the webhook to be replaced (int)<br />
-       -gitlab_token: "PERSONAL ACCESS TOKEN (¿?)" <br />
-       -hook_url: The updated webhook URL that will replace the previous one.<br />
-       -addhook_url: The new webhook URL to be added.<br />
+ please modify these vars with yours as the structure below: <br />
+ ## Vars info:
+       -listhook_api: Endpoint used to list the hooks in an specific project.
+                     "https://gitms.bcpl.mx/api/v4/projects/$PROJECTID/hooks"       
+       -edithook_api: Endpoint used to update or add hooks in an specific project.
+                     "https://gitms.bcpl.mx/api/v4/projects/$PROJECTID/hooks/$HOOKID"
+                        $PROJECTID = ID of the project to modify (int)
+                        $HOOKID = ID of the webhook to be replaced (int)
+       -gitlab_token: "PERSONAL ACCESS TOKEN (¿?)" 
+       -hook_url: The updated webhook URL that will replace the previous one.
+       -addhook_url: The new webhook URL to be added.
 Once modified and saved the vars just run the command "python webhook.py" on your terminal to execute the script.<br />
