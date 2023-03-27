@@ -7,8 +7,9 @@ Author : Israel Cortes Mayorga <br />
     git -latest version
 #
  # AUTOMATED SCRIPT TO UPDATE WEBHOOKS AT GITLAB PROJECTS (OPTIONAL MODULES TO LIST & ADD NEW HOOKS)
- This script works with a vars file named "vars.json" to get neccessary info and send the API requests, <br /> 
+ This script works with a vars file named "vars.json" to get neccessary info and send the API requests, 
  please modify these vars with yours as the structure below:<br />
+ ##Vars glosary:
        -listhook_api: Endpoint used to list the hooks in an specific project.<br />
                      "https://gitms.bcpl.mx/api/v4/projects/$PROJECTID/hooks"       <br />
        -edithook_api: Endpoint used to update or add hooks in an specific project.<br />
