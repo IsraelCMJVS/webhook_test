@@ -1,7 +1,6 @@
-### Autor : Israel Cortes Mayorga <br />
-### Javanes Solutions <br />
-### Version 1.0 <br />
-#
+Autor : Israel Cortes Mayorga <br />
+Javanes Solutions <br />
+Version 1.0 <br />
  ## Requisitos: 
     Python version 3.8 o superior
     instalar modulo "requests" de python (via pip3)
