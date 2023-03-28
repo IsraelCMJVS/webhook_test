@@ -1,7 +1,7 @@
 *Ing. Israel Cortes Mayorga <br />
 Javanes Solutions <br />
 Version 1.0*  <br />
- # SCRIPT PARA ACTUALIZAR LOS WEBHOOKS EN PROYECTOS DE GITLAB
+ # SCRIPT PARA ACTUALIZAR WEBHOOKS EN PROYECTOS DE GITLAB
  ## Requisitos: 
     Python version 3.8 o superior
     instalar modulo "requests" de python (via pip3)
