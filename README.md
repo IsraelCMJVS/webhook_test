@@ -1,14 +1,14 @@
 *Ing. Israel Cortes Mayorga <br />
 Javanes Solutions <br />
 Version 1.0*  <br />
+ # SCRIPT PARA ACTUALIZAR LOS WEBHOOKS EN PROYECTOS DE GITLAB
  ## Requisitos: 
     Python version 3.8 o superior
     instalar modulo "requests" de python (via pip3)
     git -ultima version
- # SCRIPT PARA ACTUALIZAR LOS WEBHOOKS EN PROYECTOS DE GITLAB
- Cuenta con modulos opcionales para enlistar y agregar nuevos hooks al proyecto. <br />
  Este script hace peticiones a la API de Gitlab para obtener informacion acerca de los webhooks almacenados en los proyectos. <br /> 
  Trabaja mediate un archivo de variables tipo json llamado "vars.json" donde obtiene los datos para hacer las peticiones. <br /> 
+ *Cuenta con modulos opcionales para enlistar y agregar nuevos hooks al proyecto.* <br /> <br />
  Se deben modificar estas variables como se muestra a continuación: <br />
  ## Vars info:
        -listhook_api: Endpoint para obtener una lista de los hooks en un proyecto. Este mismo funciona para agregar nuevos hooks.
