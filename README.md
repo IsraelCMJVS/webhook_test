@@ -8,7 +8,8 @@ Autor : Israel Cortes Mayorga <br />
 #
  # SCRIPT PARA ACTUALIZAR LOS WEBHOOKS EN PROYECTOS DE GITLAB
  CUENTA CON MODULOS OPCIONALES PARA ENLISTAR Y AGREGAR NUEVOS HOOKS (COMENTADOS)
- Este script hace peticiones a la API de Gitlab para obtener informacion acerca de los webhooks almacenados en los proyectos <br /> Trabaja mediate un archivo de variables tipo json llamado "vars.json" donde obtiene los datos para hacer las peticiones, <br /> 
+ Este script hace peticiones a la API de Gitlab para obtener informacion acerca de los webhooks almacenados en los proyectos <br /> 
+ Trabaja mediate un archivo de variables tipo json llamado "vars.json" donde obtiene los datos para hacer las peticione. <br /> 
  Se debe modificar estas variables como se muestra a continuación: <br />
  ## Vars info:
        -listhook_api: Endpoint para obtener una lista de los hooks en un proyecto. Este mismo funciona para agregar nuevos hooks.
