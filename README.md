@@ -21,4 +21,4 @@ Version 1.0*  <br />
        -gitlab_token: "PERSONAL ACCESS TOKEN DE GITLAB" 
        -hook_url: La URL del webhook que reemplazara al anterior.
        -addhook_url: La URL del webhook que sera agregado como nuevo.
-Una vez modificado el archivo de variables, ejecutar el comando "python webhook.py" para correr el script. <br />
+Una vez modificado el archivo de variables, ejecutar el comando "python3 webhook.py" para correr el script. <br />
