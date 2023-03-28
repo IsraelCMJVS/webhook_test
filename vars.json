@@ -1,0 +1,6 @@
+ "listhook_api" : ""  ,       
+    "edithook_api" : "",
+    "gitlab_token" : "" ,
+    "hook_url" : "" ,
+    "addhook_url" : ""   
+}
